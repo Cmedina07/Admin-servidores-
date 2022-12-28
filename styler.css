@@ -1,0 +1,149 @@
+
+
+#principal{
+    width: 900px;
+    height: auto; overflow: hidden;
+    border: 0px solid #000;
+    margin: auto ;
+    
+}
+
+.letra{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.titulo{
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+header{
+    width: 900px;
+    height: 100px;
+    border: 0px solid #000;
+}
+#logo{
+    width: 200px;
+    height: 100px;
+    border: 0px solid #000;
+    float: left;
+}
+
+.menu{
+    width: 460px;
+    height: 40px;
+    border: 1px solid #ccc;
+    float: right;
+    margin-top: 40px;
+    background: rgb(33, 101, 179);
+}
+
+.menu ul{}
+
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 0px solid #ccc;
+    color: white;
+}
+
+.img{
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+.menu ul li a:hover{
+    background: #fff;
+    color: brown;
+    transition: backgroun 1s, color 2s;
+}
+
+#slide{
+    margin-top: 2.5px;
+    width: 900px;
+    height: 250px;
+}
+
+#categorias{
+    width: 900px;
+    height: auto; overflow: hidden;
+    border:  0px solid;
+    margin-top: 15px;
+}
+.uno{
+    width: 280px;
+    height: auto; overflow: hidden;
+    border: 1px solid #ccc ;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    color: #000000;
+}
+.dos{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.leer-mas{
+    border: 1px solid #000000;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+}
+
+.leer-mas:hover{
+background: #0780bd;
+color: #fff;
+transition: background 1s, color 2s;
+}
+
+#info{
+    width: 900px;
+    height: auto; overflow: hidden;
+    border: 0px solid #c0c0c0;
+    margin-top: 10px;
+}
+#izq{
+  width: 585px;
+  height: auto; overflow: hidden;
+  border: 1px solid #ccc; 
+  float: left; 
+  padding: 5px;
+}
+
+#dare{                                                                   
+    width: 280px;
+    height: auto; overflow: hidden;
+    border: 1px solid #ccc;
+    float: right;
+    padding: 5px;
+}
+
+
+footer{
+    width: 899px;
+    height: 100px;
+    text-overflow: initial;
+    background: rgb(33, 101, 179);
+}
+
+#footer p{
+    padding: 50px;
+    margin: 10px;
+
+
+}
+
+@media screen and (min-width: 480px){
+
+    body{
+        font-size: 100%;
+    }
+
+
+}
